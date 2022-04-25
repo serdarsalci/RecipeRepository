@@ -1,6 +1,17 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React app for searching recipes
+
+run npm install
+
+# To run locally, clone and run Recipe-Repository-API  from my github;
+# Change REACT_APP_REC_REPO_API in .env to your back end url. 
+eg. REACT_APP_REC_REPO_API = https://localhost:44327/api/
+
+Makes api calls to https://api.spoonacular.com
+
+There is a daily limit of 1000 recipe request a day
+
 
 ## Available Scripts
 
@@ -69,14 +80,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-React app for searching recipes
 
-run npm install
-
-Change REACT_APP_REC_REPO_API in .env to your back end url. REACT_APP_REC_REPO_API = https://localhost:44327/api/
-
-Makes api calls to https://api.spoonacular.com
-
-There is a daily limit of 1000 recipe request a day
-
-To run locally, Clone and deploy my Recipe-Repository-API from my github;
