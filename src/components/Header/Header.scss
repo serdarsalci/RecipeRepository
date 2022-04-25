@@ -1,0 +1,49 @@
+.header {
+  min-height: 70px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  .compTitle {
+    font-family: "Lobster Two", cursive;
+    font-size: 4rem;
+  }
+
+  .navBtn {
+    align-self: center;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid rgb(214, 214, 214);
+    padding: 0.6rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 24px;
+
+    &:hover {
+      background-color: #eef;
+      border: 1px solid #aaf;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    .compTitle {
+      font-size: 2rem;
+      margin: 0 1rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .header {
+    .compTitle {
+      font-size: 3rem;
+      margin: 0 1rem;
+    }
+  }
+}

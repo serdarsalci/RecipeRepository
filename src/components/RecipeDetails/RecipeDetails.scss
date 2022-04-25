@@ -1,0 +1,153 @@
+.recipeDetailsPage {
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 2rem;
+  margin-bottom: 3rem;
+  padding: 1rem;
+
+  hr {
+    background-color: #eee;
+    border: 0 none;
+    color: rgb(60, 60, 60);
+    height: 2px;
+    margin-top: 1rem;
+  }
+  .img-info-wrapper {
+    margin: 5rem 0;
+    display: flex;
+    justify-content: space-between;
+
+    .active {
+      background: linear-gradient(to right, #686868, #313131);
+      color: #fff;
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+
+    & img {
+      width: 100%;
+      max-width: 40rem;
+      object-fit: cover;
+      border-radius: 2rem;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .prep-time {
+      margin: 1rem 0;
+    }
+
+    .image-wrapper {
+      max-width: 50rem;
+    }
+  }
+  .button {
+    padding: 1rem 2rem;
+    color: #313131;
+    background: white;
+    border: 1px solid black;
+    margin-right: 2rem;
+    font-weight: 600;
+    display: inline-block;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+
+  .recipe-info {
+    margin-left: 2rem;
+  }
+
+  .flex-wrapper {
+    display: flex;
+
+    .ingredients-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .tab-group {
+    margin: 1.5rem 0;
+
+    .active {
+      background: linear-gradient(to right, #686868, #313131);
+    }
+  }
+
+  .bookmark-btn {
+    border: 1px solid rgb(176, 176, 176);
+    padding: 0.6rem 2rem 0.4rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    margin-right: 1rem;
+    display: block;
+    text-align: center;
+
+    &:hover {
+      border: 1px solid rgb(126, 126, 126);
+    }
+  }
+
+  .attributes {
+    svg {
+      color: green;
+    }
+    margin-right: 0.5rem;
+  }
+
+  @media screen and (max-width: 900px) {
+    #recipe-summary {
+      max-width: 50rem;
+      margin-top: 2rem;
+      padding: 0 0.5rem;
+
+      h3 {
+        font-weight: 400;
+        font-size: 1.1rem;
+        padding: 0 1rem 1rem 0;
+      }
+    }
+    .img-info-wrapper {
+      display: block;
+    }
+  }
+
+  .border {
+    border: 1px solid black;
+  }
+
+  #recipe-summary {
+    max-width: 50rem;
+    margin-top: 2rem;
+    padding: 0 0.5rem;
+
+    h3 {
+      font-weight: 400;
+      line-height: 2rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .recipeDetailsPage {
+    padding: 0;
+
+    #recipe-summary {
+      max-width: 50rem;
+      margin-top: 2rem;
+      padding: 0 0.5rem;
+
+      h3 {
+        font-weight: 400;
+        line-height: 1.6rem;
+        font-size: 1rem;
+        padding: 0 1rem 1rem 0;
+      }
+    }
+  }
+}

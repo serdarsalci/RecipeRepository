@@ -1,0 +1,19 @@
+.ingredients {
+  //   border: 2px solid blueviolet;
+  max-width: 50rem;
+  margin-top: 1rem;
+  padding: 0 0.5rem;
+
+  ul {
+    list-style-type: none;
+    padding: 0.5rem;
+    margin-top: 2rem;
+
+    li {
+      font-size: 1rem;
+      text-decoration: none;
+      padding: 0.3rem 0;
+      line-height: 1.5rem;
+    }
+  }
+}
